@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:padding="15dp">
+
+
+    <TextView
+        android:text="@string/club_sepak_bola_yang_memenangkan_liga_champions_adalah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:id="@+id/radioGroup" >
+
+
+        <RadioButton
+            android:text="@string/real_madrid"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:onClick="onRadioButton"
+            />
+
+        <RadioButton
+            android:text="@string/liverpool"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:id="@+id/radioButton2"/>
+
+        <RadioButton
+            android:text="@string/barcelona"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:id="@+id/radioButton3"
+            />
+
+        <RadioButton
+            android:text="@string/juventus"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+            android:id="@+id/radioButton4"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

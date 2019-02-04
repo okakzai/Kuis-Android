@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KuisSederhana</string>
+    <string name="club_sepak_bola_yang_memenangkan_liga_champions_adalah">Club sepak bola yang memenangkan liga champions adalah :</string>
+    <string name="real_madrid">Real Madrid</string>
+    <string name="liverpool">Liverpool</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="juventus">Juventus</string>
+</resources>
